@@ -1,0 +1,15 @@
+nav{
+    font-size: 14px;
+}
+
+#ecran-mic{
+    display: none;
+}
+
+#ecran-mare{
+    display: none
+}
+
+#ecran-mediu{
+    display: block;
+}

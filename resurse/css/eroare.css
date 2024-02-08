@@ -1,0 +1,8 @@
+#err-imag img{
+    width: 100px;
+    height: 100px;
+}
+
+#err-coloane{
+    display: flex;
+}

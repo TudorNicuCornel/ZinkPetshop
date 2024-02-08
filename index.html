@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Petshop Zink</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Tudor Nicu-Cornel">
+        <meta name="keywords" content="petShop ,persoană, animale,pisică,câine,">
+        <meta name="description" content="Cauti un animalut de companie si esti nehotarat? Citeste si te vei decide imediat!">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--MATHHL-->
+
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+                src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+
+
+        <!--FAVICON-->
+        <link rel="apple-touch-icon" sizes="180x180" href="resurse/ico/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="resurse/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="resurse/ico/favicon-16x16.png">
+        <link rel="manifest" href="resurse/ico/site.webmanifest">
+        <link rel="mask-icon" href="resurse/ico/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- CSS main -->
+        
+        <link rel="stylesheet" href="resurse/css/main.css" type="text/css">
+
+        <!-- CSS layout -->
+        <link rel="stylesheet" href="resurse/css/layout.css" type="text/css">
+        <link rel="stylesheet" href="resurse/css/layout_900.css" type="text/css" media="screen  and (min-width:601px) and (max-width:900px)">
+        <link rel="stylesheet" href="resurse/css/layout_600.css" type="text/css" media="screen  and (max-width:600px)">
+
+        <!-- CSS meniu -->
+        <link rel="stylesheet" href="resurse/css/nav.css" type="text/css">
+        <link rel="stylesheet" href="resurse/css/nav_900.css" type="text/css" media="screen and (min-width: 601px) and (max-width:900px)">
+        <link rel="stylesheet" href="resurse/css/nav_600.css" type="text/css" media="screen  and (min-width: 1px) and (max-width:600px)">
+
+        <!-- icon library -->
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+
+        <header>
+             <h1><em>Alege animăluțul potrivit pentru tine</em></h1>
+        </header>
+
+        <nav>
+                
+                <label id="hamburger" for="ch-menu">
+                    <img src="resurse/imagini/hamburger.png" alt="menu">
+                </label>
+                <input id="ch-menu" type="checkbox">
+
+                <ul class="meniu">
+                    <li class="marire">   
+                        <div id ="ecran-mediu"><i class="fa fa-fw fa-home"></i></div>
+                        <div id ="ecran-mic"><i class="fa fa-fw fa-home"></i></div>
+                        <div id ="ecran-mare"><i class="fa fa-fw fa-home"></i> Acasă</div>
+                        <ul>
+                                    <li><a href="#categoriiAnimale">Categorii de Animale</a></li>
+                                    <li><a href="#galerie">Galerie</a></li>
+                                    <li><a href="#iframe">Filmulețe cu Animale</a></li>    
+                                    <li><a href="#intrebari">Întrebări Frecvente</a></li>
+                                    <li><a href="#intretinere">Calculul Întreținerii</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="marire">
+                        <div>Câini</div>
+                            <ul>
+                                <li><a href=#hranaC>Hrană pentru Câini</a></li>
+                                <li><a href=#produseIC>Produse de Igienizare</a></li>
+                            </ul>
+                    </li>
+                            
+                    <li class="marire">
+                        <div>Pisici</div>
+                            <ul>
+                                <li><a href=#hranaP>Hrană pentru Pisici</a></li>
+                                <li><a href=#produseIP>Produse de Igienizare</a></li>
+                            </ul>
+                    </li>
+
+                    <li class="marire">
+                        <div>Hamsteri</div>                                
+                             <ul>
+                                <li><a href=#hranaH>Hrană pentru Hamsteri</a></li>
+                                <li><a href=#produseIH>Produse de Igienizare</a></li>
+                            </ul>
+                    </li>
+                    
+                    <li class="marire"><a class="marireA" href=#Jucarii>Jucarii</a></li>
+                </ul>
+            </nav>
+
+        <main>
+
+            <div id="grid-pagina">
+                <section id="categoriiAnimale">
+                    <h2>Categorii de animale</h2>
+                    <p>
+                        Dacă ești o <b>persoană</b> mai timidă, animăluțul perfect pentru tine este o <b>pisică</b>. Acestea sunt ființe blânde
+                        și foarte iubitoare și îți vor ridica mereu moralul.
+                        În schimb, dacă ești mai degrabă o <b>persoană</b> cu o personalitate mai impunătoare, <b>câinele</b> este potrivit pentru tine.
+                        Pentru un temperament mai melancolic, adecvat pentru tine sunt <b>animalele</b> silențioase, care nu sunt o mare
+                        bătaie de cap, iar prin preajma lor vei avea parte de relaxare.
+                        <q><em>Everything</em> I know I learned from dogs.</q>
+                    </p>
+                    <section id="familie">
+                        <h3><em>Animale de familie</em></h3>
+                        <ul>
+                            <li>Câini
+                                <ul>
+                                    <li>Boxer</li>
+                                    <li>Mastiff</li>
+                                    <li>Labrador</li>
+                                    <li>Cavalier</li>
+                                    <li>Dalmatian</li>
+                                    <li>Golden Retriever</li>
+                                </ul>
+                            </li>
+                            <li>Pisici
+                                <ul>
+                                    <li>Chartreux</li>
+                                    <li>Balinese</li>
+                                    <li>Persană</li>
+                                    <li>Siberian</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="silentioase">
+                        <h3><em>Animale silentioase</em></h3>
+                        <ul>
+                            <li>Hamsteri</li>
+                            <li>Șerpi</li>
+                            <li>Șopârle</li>
+                            <li>Porcușori de guineea</li>
+                            <li>Papagali
+                                <ul>
+                                    <li>Peruși</li>
+                                    <li>Papagali nimfă</li>
+                                    <li>Papagalul Amorez</li>
+                                    <li>Papagal Jako</li>
+                                    <li>Papagal Amazonian</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                    <section id="cazuriSpeciale">
+                        <h2><em>Animale pentru cazuri speciale</em></h2>
+                        <p>
+                            Cele mai recomandate <b>animale</b> de <b>petShop</b>-ul nostru pentru această clasificare (în special pentru oamenii
+                            cu dizabilități în vedere sau mișcare) sunt câinii, ei sunt cei mai loiali și printre cele mai deștepte
+                            <b>animale</b> de companie vă rugăm vizualizați lista de mai sus, iar alte <b>animale</b>
+                            <a href="https://fmi.unibuc.ro/" target="_blank">găsiți aici...</a>
+                        </p>
+                    </section>
+                </section>
+
+                <section id="galerie">
+                        <h2><em>Galerie</em></h2>
+
+                        <figure id="bulldog">
+                            <a href="resurse/imagini/bulldog.jpg" download="bulldog.jpg">
+                                <picture>
+                                    <source id="micBull" srcset="resurse/imagini/bulldog_resized.jpg" media="(max-width: 600px)" >
+                                    <source srcset="resurse/imagini/bulldog_cropped.jpg" media="(max-width: 900px)" >
+                                    <img src="resurse/imagini/bulldog.jpg" alt="bulldog" title="bulldog">
+                                </picture>
+                            </a>
+                            <figcaption>Bulldog</figcaption>
+                        </figure>
+
+                        <figure id="cat">
+                            <a href="resurse/imagini/cat.jpg" download>
+                                <picture>
+                                    <source srcset="resurse/imagini/cat_resized.jpg" media="(max-width: 600px)" >
+                                    <source srcset="resurse/imagini/cat_cropped.jpg" media="(max-width: 900px)" >
+                                    <img src="resurse/imagini/cat.jpg" alt="cat" title="cat" >
+                                </picture>
+                            </a>
+                            <figcaption>Pisică Neagră</figcaption>
+                        </figure>
+
+                        <figure id="golden">
+                            <a href="resurse/imagini/golden.jpg" download>
+                                <picture>
+                                    <source srcset="resurse/imagini/golden_resized.jpg" media="(max-width: 600px)" >
+                                    <source srcset="resurse/imagini/golden_cropped.jpg" media="(max-width: 900px)" >
+                                    <img src="resurse/imagini/golden.jpg" alt="golden" title="golden" >
+                                </picture>
+                            </a>
+                            <figcaption>Golden Retriever</figcaption>
+                        </figure>
+
+                        <figure id="puppy">
+                            <a href="resurse/imagini/puppy.jpg" download>
+                                <picture>
+                                    <source srcset="resurse/imagini/puppy_resized.jpg" media="(max-width: 600px)" >
+                                    <source srcset="resurse/imagini/puppy_cropped.jpg" media="(max-width: 900px)" >
+                                    <img src="resurse/imagini/puppy.jpg" alt="puppy" title="puppy" >
+                                </picture>
+                            </a>
+                            <figcaption>Sausage Dog</figcaption>
+                        </figure>
+                        
+
+                </section>
+
+                <div id="calendar">
+                    <label>Începe la: </label>
+                    <input type="text" placeholder="1/11/2022" readonly disabled><br><br>
+                    <label>Se sfârsește la: </label>
+                    <input type="text" placeholder="30/11/2022" readonly disabled>
+                </div>
+
+                <div id="anunturi">
+                    <h3><em>Anunțuri</em></h3>
+                    <textarea placeholder=" 
+                    În data de 30 Noiembrie 2022 site-ul va fi în mentenanță.
+                    " readonly disabled></textarea>
+                </div>
+
+                <section id="online">
+                    <h3><em>Utilizatori Online</em></h3>
+                    <textarea placeholder=" 
+                    Alex 
+                    Nicu
+                    Florin
+                    Tudor
+                    " readonly disabled></textarea>
+                </section>
+
+                <div id="serverInfo">
+                    <label id="numeAd">Admin: </label>
+                    <input type="text" placeholder="Tudor Nicu-Cornel" readonly disabled><br><br>
+                    <label id="server">Server: </label>
+                    <input type="text" placeholder="Online" readonly disabled>
+                </div>
+                
+                <div id="dateStats">
+
+                    <label id="numeUt">Conectat ca: </label>
+                    <input type="text" placeholder="Nicu" readonly disabled><br><br>
+
+                    <form>
+                        Da: <input type="radio" name="vote"><br>
+                        Nu: <input type="radio" name="vote">
+                    </form>
+                </div>
+
+                <div id="table">
+                    <div id="scroll">
+                        <table>
+                            <caption>Cele mai cumpărate animale</caption>
+                            <thead>
+                                <tr>
+                                    <td>Rasă</td>
+                                    <td>Vârstă medie(ani)</td>
+                                    <td>Preț(RON)</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Golden Retriever</td>
+                                    <td>11</td>
+                                    <td>500</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>British Cat</td>
+                                    <td>18</td>
+                                    <td>700</td>
+                                </tr>
+                            
+                                <tr>
+                                    <td>Bulldog</td>
+                                    <td>10</td>
+                                    <td>1000</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Syrian Hamster</td>
+                                    <td>3</td>
+                                    <td>100</td>
+                                </tr>
+                            </tbody>
+                            
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3">Top seller <em>Zink</em></td>
+                                </tr>
+                            </tfoot>
+                            <caption>Animalute</caption>
+                        </table>
+                    </div>
+                </div>
+
+                <section id="iframe">
+                        <h2><em>Filmulețe cu animale</em></h2>
+                        <div class="iframe-flex">
+                        <div class="tab">
+                            <a id="video1" target="ifr-video" href="https://www.youtube.com/embed/zcM6xhuoQ9g?start=2">Câini Deștepți</a>
+                            <a id="video2" target="ifr-video" href="https://www.youtube.com/embed/VUgfrVjhcJs?start=2">Cere ajutorul</a>
+                        </div>
+
+                        <div class="video">
+                            <iframe name="ifr-video" width="500" height="300" src="https://www.youtube.com/embed/VUgfrVjhcJs?start=2" title="YouTube video player"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        </div>
+                </section>
+
+                <section id="intrebari">
+                    <h2><em>Întrebări Frecvente</em></h2>
+                    <details>
+                        <summary>Cum ne poți contacta?</summary>
+                        <p>Mergi la <a href="#contact">secțiunea de contact</a>, site-ul nostru este doar online.</p>
+                    </details>
+
+                    <details>
+                        <summary>Hamsterii trebuie luați în cuplu?</summary>
+                        <p>Nu, nu este nevoie de acest aspect deoarece în natură ei nu sunt animale sociale deci ei pot sa trăiască și singuri.</p>
+                    </details>
+
+                    <details>
+                        <summary>Aveți rasa Sfinx?</summary>
+                        <p>Da, mergi în bara de <a href="#meniu">meniu</a> și accesează submeniul animale.</p>
+                    </details>
+
+                    <details>
+                        <summary>Cum sunt transportate <b>animalele</b>?</summary>
+                        <p>Avem grijă de acest aspect deoarece iubim animalele, iar acestea sunt transportate în cuști speciale care vor fi lăsate drept cadou la comanda dumneavoastră.</p>
+                    </details>
+
+                    <details>
+                        <summary>Câinii husky lasă mult păr?</summary>
+                        <p>Da, sunt animale care își schimbă blana periodic în special toamna și primăvara.</p>
+                    </details>
+
+                </section>
+
+                <section id="intretinere">
+                    <h2><em>Calcul întreținerii unui animal</em></h2>
+                    <div "mathhl">
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mtable>
+                                    <mtr>
+                                        <mtd><mi>In</mi><mo>=</mo><mi>Sb</mi><mo>-</mo><mi>Nr</mi><mo>*</mo><mo>(</mo><mi>Mn</mi><mo>+</mo><mi>Ju</mi>
+                                            <mo>+</mo><mi>Vt</mi><mo>+</mo><mi>Md</mi><mo>)</mo></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>In</mi><mo>=</mo><mi>Întreținerea</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Sb</mi><mo>=</mo><mi>Salariul de bază</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Nr</mi><mo>=</mo><mi>Numărul animalelor deținute</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Mn</mi><mo>=</mo><mi>Mâncare(~700 de lei pe lună pentru un câine)</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Ju</mi><mo>=</mo><mi>Jucării(~100 de lei)</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Vt</mi><mo>=</mo><mi>Veterinar(~500 de lei)</mi></mtd>
+                                    </mtr>
+
+                                    <mtr>
+                                        <mtd><mi>Md</mi><mo>=</mo><mi>Medicamente(~100 de lei)</mi></mtd>
+                                    </mtr>
+
+                                </mtable>
+                            </mrow>
+                        </math>
+                    </div>
+
+
+                    <br>
+                    <br>
+                    <br>
+
+                </section>
+                
+            </div>
+
+        </main>
+
+        <footer>
+            <div id="trigger" title="top-link"><a href="#" id="link-top"><div id="paranteze"><div id="triunghi"></div></div></a></div>
+            <div id="contact">
+                <address>
+                    <a href="tel:+0771232456">Telefon</a>
+                    <a target="_blank" href="https://goo.gl/maps/krMgDf163otHGad4A">Locație</a>
+                    <a href="mailto:petShop@animal.com">Mail</a>
+                    <a href="skype:example?chat">Skype</a>
+                </address>
+            </div>
+
+            <p><small>Copyright &copy;2022 Tudor Nicu-Cornel <time datetime="2022-10-17">17 Octombrie 2022</time></small></p>
+
+        </footer>
+    </body>
+</html>

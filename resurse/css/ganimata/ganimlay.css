@@ -1,0 +1,42 @@
+#grid-anim{
+    display: grid;
+
+    grid-template-areas: "z-cute z-hamster"
+                         "z-kitten z-cat2"
+                         "z-parrot z-lorikeets"
+    ;
+    border: 0;
+}
+
+figure{
+    width: 1px;
+    text-align: center;
+    font-style: italic;
+    text-indent: 0;
+    margin: 2em;
+    padding: 2em;
+}
+
+#cute{
+    grid-area:z-cute;
+}
+
+#hamster{
+    grid-area:z-hamster;
+} 
+
+#kiiten{
+    grid-area:z-kitten;
+} 
+
+#cat2{
+    grid-area:z-cat2;
+} 
+
+#parrot{
+    grid-area:z-parrot;
+} 
+
+#lorikeets{
+    grid-area:z-lorikeets;
+}

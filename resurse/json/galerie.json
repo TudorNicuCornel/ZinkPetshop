@@ -1,0 +1,75 @@
+{
+    "cale_galerie": "resurse/imagini",
+    "imagini": [
+        {
+            "id":"arici",
+            "cale_imagine":"arici.jpg",
+            "titlu":"arici",
+            "descriere":"I. Arici",
+            "download":"arici.jpg",
+            "sfert": 1
+        },
+        {
+            "id":"bulldog",
+            "cale_imagine":"bulldog.jpg",
+            "titlu":"bulldog",
+            "descriere":"II. Bulldog",
+            "download":"bulldog.jpg",
+            "sfert": 1
+        }
+        ,
+        {
+            "id":"cat",
+            "cale_imagine":"cat.jpg",
+            "titlu":"cat",
+            "descriere":"III. Pisică Neagră",
+            "download":"cat.jpg",
+            "sfert": 2
+        }
+        ,
+        {
+            "id":"cat2",
+            "cale_imagine":"cat2.jpg",
+            "titlu":"cat2",
+            "descriere":"IV. Pisică Colorată",
+            "download":"cat2.jpg",
+            "sfert": 2
+        }
+        ,
+        {
+            "id":"cute",
+            "cale_imagine":"cute.jpg",
+            "titlu":"cute",
+            "descriere":"V. Hamster Siberian",
+            "download":"cute.jpg",
+            "sfert": 3
+        }
+        ,
+        {
+            "id":"golden",
+            "cale_imagine":"golden.jpg",
+            "titlu":"golden",
+            "descriere":"VI. Golden Retriever",
+            "download":"golden.jpg",
+            "sfert": 3
+        }
+        ,
+        {
+            "id":"hamster2",
+            "cale_imagine":"hamster.jpg",
+            "titlu":"hamster",
+            "descriere":"VII. Hamster Swar",
+            "download":"hamster.jpg",
+            "sfert": 4
+        }
+        ,
+        {
+            "id":"puppy",
+            "cale_imagine":"puppy.jpg",
+            "titlu":"puppy",
+            "descriere":"VIII. Sausage Dog",
+            "download":"puppy.jpg",
+            "sfert": 4
+        }
+    ]
+}

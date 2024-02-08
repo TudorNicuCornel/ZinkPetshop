@@ -1,0 +1,176 @@
+html{
+    font-size: 16px;
+    transition: all 1s linear;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+header{
+    background-color: var(--header);
+}
+
+main{
+    background-color: var(--culoare-main);
+    margin-left: var(--padding-main);
+    margin-right: var(--padding-main);
+}
+
+footer{
+    background-color: var(--footer);
+}
+
+
+#grid-pagina{
+    display: grid;
+
+    grid-template-areas:    "z-galerie z-galerie z-galerie z-galerie"
+                            "z-online z-dateStats z-dateStats z-serverInfo"
+                            "z-calendar z-calendar z-table z-table"
+                            "z-anunturi z-anunturi z-table z-table"
+                            "z-iframe z-iframe z-intretinere z-intretinere"
+                            "z-categoriiAnimale z-categoriiAnimale z-categoriiAnimale z-categoriiAnimale"
+                            "z-intrebari z-intrebari z-intrebari z-intrebari"
+                        ;
+}
+
+#grid-pagina>section{
+    border:none;
+    border-bottom: 1px solid black;
+}
+
+#grid-pagina>*{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#galerie{
+    grid-area: z-galerie;
+}
+
+#table{
+    grid-area: z-table;
+    border-left: 1px solid black;
+}
+
+#calendar{
+    grid-area: z-calendar;
+}
+
+#anunturi{
+    grid-area: z-anunturi;
+}
+
+#online{
+    grid-area: z-online;
+}
+
+#dateStats{
+    grid-area: z-dateStats;
+    border-left: 1px solid black;
+}
+
+#serverInfo{
+    grid-area: z-serverInfo;
+    border-left: 1px solid black;
+}
+
+#iframe{
+    grid-area: z-iframe;
+    width: 60%;
+}
+
+#intretinere{
+    grid-area: z-intretinere;
+}
+
+#categoriiAnimale{
+    grid-area: z-categoriiAnimale;
+}
+
+#intrebari{
+    grid-area: z-intrebari;
+}
+
+figure{
+    width: 1px;
+    text-align: center;
+    font-style: italic;
+    text-indent: 0;
+    margin: 2em;
+    padding: 2em;
+}
+
+#ecran-mic{
+    display: none;
+}
+
+#ecran-mare{
+    display: block;
+}
+
+#ecran-mediu{
+    display: none;
+}
+
+/* ----Tabel----*/
+
+table{
+    caption-side: bottom;
+    color: black;
+    border-collapse:separate;
+    border:solid var(--table-border) 1px;
+    border-radius:6px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+td:nth-child(even) {
+    background-color: var(--par);
+}
+td:nth-child(odd) {
+    background-color: var(--impar);
+}
+
+td:first-child, th:first-child {
+    border-left: none;
+}
+
+td:hover:nth-child(even) {
+    background-color: var(--cursor);
+    border-radius: 10px;
+}
+td:hover:nth-child(odd) {
+    background-color: var(--cursor);
+    border-radius: 10px;
+}
+
+th {
+    background-color: blue;
+    border-top: none;
+}
+
+tr{
+    transition: background-color 0.5s linear;
+}
+
+td {
+    border: 1px solid black;
+}
+
+tr:hover {
+    background-color:var(--cyan);
+    color:#ffffff;
+    text-shadow: 1px 2px #000000;
+    box-shadow: 0px 0px 10px #ff0000;
+}

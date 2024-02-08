@@ -1,0 +1,118 @@
+html{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+h3{
+    font-size: 1em;
+}
+
+header{
+    background-color: var(--header);
+}
+
+main{
+    background-color: var(--culoare-main);
+    margin-left: var(--padding-main);
+    margin-right: var(--padding-main);
+}
+
+footer{
+    background-color: var(--footer);
+}
+
+
+#grid-pagina{
+    display: grid;
+
+    grid-template-areas:    "z-galerie"
+                            "z-online"
+                            "z-dateStats" 
+                            "z-serverInfo"
+                            "z-calendar"
+                            "z-table"
+                            "z-anunturi"
+                            "z-intretinere"
+                            "z-categoriiAnimale"
+                            "z-intrebari"
+                        ;
+    border: none;
+}
+
+#grid-pagina>section{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#grid-pagina>*{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#galerie{
+    grid-area: z-galerie;
+}
+
+#table{
+    grid-area: z-table;
+}
+
+#calendar{
+    grid-area: z-calendar;
+}
+
+#anunturi{
+    grid-area: z-anunturi;
+}
+
+#online{
+    grid-area: z-online;
+}
+
+#dateStats{
+    grid-area: z-dateStats;
+}
+
+#serverInfo{
+    grid-area: z-serverInfo;
+}
+
+#iframe{
+    grid-area: z-iframe;
+    display: none;
+}
+
+#intretinere{
+    grid-area: z-intretinere;
+}
+
+#categoriiAnimale{
+    grid-area: z-categoriiAnimale;
+}
+
+#intrebari{
+    grid-area: z-intrebari;
+}
+
+figure{
+    width: 1px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+/* ----Tabel----*/
+
+#scroll{
+    overflow-x: scroll;
+}

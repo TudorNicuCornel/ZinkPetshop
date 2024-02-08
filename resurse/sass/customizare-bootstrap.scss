@@ -1,0 +1,23 @@
+@use '../../node_modules/bootstrap/scss/bootstrap.scss' with(
+    $primary: green,
+    $font-family-base: 'Times New Roman',
+    $border-radius: 0.500rem,
+    $h1-font-size: 3em,
+    $h2-font-size: 2em,
+    $h3-font-size: 1.3em,
+    $body-bg: blue,
+    $body-color: purple,
+    $link-color: white
+);
+
+b {
+    color: white;
+}
+
+:root {
+
+    --bs-breakpoint-sm: 0px;
+    --bs-breakpoint-md: 600px;
+    --bs-breakpoint-lg: 900px;
+
+}

@@ -1,0 +1,445 @@
+#text {
+  position: relative;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  
+}
+
+@keyframes ripple {
+  0% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  1%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  2% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  4%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  5% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  6%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  7% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  8%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  9% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  10%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  11% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  12%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  13% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  14%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  15% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  16%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  17% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  18%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  19% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  20%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  21% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  22%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  23% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  24%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  25% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  26%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  27% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  28%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  29% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  30%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  31% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  32%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  33% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  34%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  35% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  36%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  37% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  38%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  39% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  40%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  41% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  42%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  43% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  44%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  45% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  46%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  47% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  48%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  49% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  50%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  51% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  52%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  53% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  54%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  55% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  56%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  57% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  58%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  59% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  60%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  61% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  62%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  63% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  64%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  65% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  66%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  67% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  68%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  69% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  70%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  71% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  72%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  73% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  74%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  75% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  76%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  77% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  78%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  79% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  80%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  81% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  82%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  83% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  84%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  85% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  86%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  87% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  88%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  89% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  90%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  91% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  92%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  93% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  94%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  95% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  96%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  97% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  98%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,transparent, black, transparent 2%);
+  }
+
+  99% {
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+
+  100%{
+    --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black , transparent, black 2%);
+  }
+}
+
+#text-reflectat {
+  position:absolute;
+	left:0;
+	top:130%;
+	transform-origin:0 0;
+	/*conetaza ordinea transformarilor!*/
+	transform: rotateX(180deg) skew(-45deg) scaleY(0.5) translate(10px,-25px); 
+	opacity:0.55;
+
+  --imagine-masca:repeating-radial-gradient(circle at 50% 100%,black, transparent, black 2%);
+  --dimensiune-masca-normala:100% 100%;
+  mask-image: var(--imagine-masca);
+  -webkit-mask-image:var(--imagine-masca) ;
+  mask-size: var(--dimensiune-masca-normala);
+  --webkit-mask-size: var(--dimensiune-masca-normala);
+}
+
+#text-reflectat:hover{
+  animation: ripple 9s linear infinite;
+}
+
+hr {
+  height: 30px;
+  border: 0;
+  width: auto;
+  background-image: 
+    radial-gradient(circle, white 7%, #00ffb7 25%, transparent 30%),
+    radial-gradient(circle, white 3%,#00d9ff 10%, transparent 15%),
+    radial-gradient(circle, white 2%, #2196f3 15%, transparent 20%);
+  background-size: 30px 30px;
+  background-position: 
+    0px 0px,
+    -6px -6px,
+    6px 6px;
+}

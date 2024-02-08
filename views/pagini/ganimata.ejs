@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html  lang="ro">
+    <head>
+
+        <%- include("../fragmente/head.ejs"); %>
+        <title>Petshop Zink</title>
+        <meta name="keywords" content="petShop, animale, pisică, câine,">
+        <meta name="description" content="Galerie cu unele dintre animăluțele noastre!">
+        <!-- CSS layout -->
+        <link rel="stylesheet" href="resurse/css/ganimata/ganimlay.css" type="text/css">
+        <link rel="stylesheet" href="resurse/css/ganimlay_600.css" type="text/css" media="screen  and (max-width:600px)">
+
+    </head>
+    <body>
+        <header>
+             <h1><em>PetShop Zink</em></h1>
+        </header>
+
+        <%- include("../fragmente/nav.ejs");  %> 
+        <main>
+            <div id="grid-anim">
+                <div id="cute">
+                    <figure>
+                        <a href="resurse/imagini/cute.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/cute_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/cute_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/cute.jpg" alt="cute" title="hamster" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="hamster">
+                    <figure>
+                        <a href="resurse/imagini/hamster.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/hamster_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/hamster_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/hamster.jpg" alt="hamster" title="hamster" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="kitten">
+                    <figure>
+                        <a href="resurse/imagini/kitten.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/kitten_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/kitten_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/kitten.jpg" alt="kitten" title="cat" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="cat2">
+                    <figure>
+                        <a href="resurse/imagini/cat2.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/cat2_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/cat2_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/cat2.jpg" alt="cat" title="cat" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="parrot">
+                    <figure>
+                        <a href="resurse/imagini/parrot.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/parrot_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/parrot_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/parrot.jpg" alt="parrot" title="parrot" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="lorikeets">
+                    <figure>
+                        <a href="resurse/imagini/rainbow-lorikeets.jpg" download>
+                            <picture>
+                                <source srcset="resurse/imagini/rainbow-lorikeets_resized.jpg" media="(max-width: 600px)" >
+                                <source srcset="resurse/imagini/rainbow-lorikeets_cropped.jpg" media="(max-width: 900px)" >
+                                <img src="resurse/imagini/rainbow-lorikeets.jpg" alt="lorikeets" title="parrot" >
+                            </picture>
+                        </a>
+                    </figure>
+                </div>
+
+                <div id="video-vtt">
+                    <video controls style="width:100%;height:200px" poster="resurse/video/poster.jpg" preload="metadata">
+                        <source src="resurse/video/animale.mp4" type="video/mp4">
+                        <source src="resurse/video/animale.ogv" type="video/ogv">
+                  
+                        <track default src="resurse/video/track/caption_ro.vtt" kind="captions" srclang="ro" label="romană" />
+                        <track  src="resurse/video/track/caption_en.vtt" kind="captions" srclang="en" label="engleză" />
+                      </video>
+                </div>
+
+            </div>
+        </main>
+    
+        <%- include("../fragmente/footer.ejs");  %> 
+
+    </body>
+</html>

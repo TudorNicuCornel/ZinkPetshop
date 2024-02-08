@@ -1,0 +1,119 @@
+html{
+    font-size: 14px;
+}
+
+h1{
+    font-size:2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+header{
+    background-color: var(--header);
+}
+
+main{
+    border: none;
+    background-color: var(--culoare-main);
+    margin-left: var(--padding-main);
+    margin-right: var(--padding-main);
+}
+
+footer{
+    background-color: var(--footer);
+}
+
+
+#grid-pagina{
+    display: grid;
+
+    grid-template-areas:    "z-galerie z-galerie"
+                            "z-online z-dateStats"
+                            "z-serverInfo z-calendar"
+                            "z-table z-anunturi"
+                            "z-intretinere z-intretinere"
+                            "z-categoriiAnimale z-categoriiAnimale"
+                            "z-intrebari z-intrebari"
+                        ;
+    border: none
+}
+
+#grid-pagina>section{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#grid-pagina>*{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#galerie{
+    grid-area: z-galerie;
+}
+
+#table{
+    grid-area: z-table;
+}
+
+#calendar{
+    grid-area: z-calendar;
+    border-left: 1px solid black;
+}
+
+#anunturi{
+    grid-area: z-anunturi;
+    border-left: 1px solid black;
+}
+
+#online{
+    grid-area: z-online;
+}
+
+#dateStats{
+    grid-area: z-dateStats;
+    border-left: 1px solid black;
+}
+
+#serverInfo{
+    grid-area: z-serverInfo;
+}
+
+#iframe{
+    grid-area: z-iframe;
+    display: none;
+}
+
+#intretinere{
+    grid-area: z-intretinere;
+}
+
+#categoriiAnimale{
+    grid-area: z-categoriiAnimale;
+}
+
+#intrebari{
+    grid-area: z-intrebari;
+}
+
+figure{
+    width: 1px;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 1em;
+    padding: 1em;
+}
+
+/* ----Tabel----*/
+
+#scroll{
+    overflow-x: scroll;
+}
