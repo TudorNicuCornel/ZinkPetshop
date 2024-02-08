@@ -1,6 +1,10 @@
 const express= require("express");
 const fs= require("fs");
 const sharp = require("sharp");
+const sass = require("sass");
+
+var cssBootstrap = sass.compile(__dirname+"/resurse/sass/customizare-bootstrap.scss",{sourceMap:true});
+fs.writeFileSync(__dirname+"/resurse/css/biblioteci/customizare-bootstrap.css",cssBootstrap.css);
 
 
 app=express();
